@@ -1,0 +1,26 @@
+{
+  "name": "twgl-browserify",
+  "version": "1.0.0",
+  "description": "Simple demo project which uses twgl.js and browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify index.js -t glslify -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prinzhorn/twgl-browserify.git"
+  },
+  "author": "Alexander Prinzhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prinzhorn/twgl-browserify/issues"
+  },
+  "homepage": "https://github.com/Prinzhorn/twgl-browserify#readme",
+  "dependencies": {
+    "twgl.js": "0.0.30"
+  },
+  "devDependencies": {
+    "glslify": "2.3.1"
+  }
+}
